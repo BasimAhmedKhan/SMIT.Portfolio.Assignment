@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #bdb9cb;
+    
+}
+
+body{
+    margin: 0rem 4rem;
+    background-color: #373244;
+}
+
+.navbar{
+    display: flex;
+    background-color: #373244;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element{
+    margin-left: 6rem;
+}
+
+.element li{
+    margin-left: 2.5rem;
+}
+
+.element a:hover{
+    color: white;
+}
+
+.social{
+    margin-left: 30rem;
+}
+
+.social li{
+    margin-left: 1rem;
+}
+
+.social img{
+    width: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.brand a{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.name{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin-top: 60px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    margin-top: 5rem;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.im{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.underline{
+    background-color: #ffc200;
+    height: 5px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.underline{
+    margin: 20px 0px;
+}
+
+.home p{
+    width: 250px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.dp{
+    background-color: #2e2a39;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 1.5rem;;
+    display: flex;
+    justify-content: center;
+}
+
+.dp img{
+    width: 500px;
+}
+
+.services{
+    margin: 3rem 3rem 0rem;
+}
+
+.services a{
+    color: #efbe3f;
+}
+
+.services > *{
+    margin: 20px 0px;
+}
+
+.services .services-para{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.services li{
+    margin-right: 1rem;
+}
+
+.social-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100%;
+    background-color: #423d51;
+}
+
+.social-bar img{
+    width: 100px;
+}
+
+.s1, .s2, .s3, .s4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    background-color: #373246;
+    border-radius: 2px;
+}
+
+.portfolio{
+    background-color: #292534;
+    width: 100%;
+}
