@@ -10,7 +10,7 @@ body{
     background-color: #373244;
 }
 
-.navbar, .home, .social-bar, .portfolio, .portfolio-tiles, .portfolio-projects{
+.navbar, .home, .social-bar, .portfolio, .portfolio-tiles, .portfolio-projects, .testimonial{
     margin: 0rem 4rem;
 }
 
@@ -325,5 +325,10 @@ h1{
     background-color: #efbe3f;
     color: white;
     transition: all 0.5s ease-out;
+}
+
+.testimonial-container{
+    background-color: #292534;
+    width: 100%;
 }
 
