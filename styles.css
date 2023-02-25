@@ -10,7 +10,7 @@ body{
     background-color: #373244;
 }
 
-.navbar, .home, .social-bar, .portfolio{
+.navbar, .home, .social-bar, .portfolio, .portfolio-tiles, .portfolio-projects{
     margin: 0rem 4rem;
 }
 
@@ -150,6 +150,9 @@ h1{
 
 .services li{
     margin-right: 1rem;
+}
+
+.logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +162,7 @@ h1{
     background-color: #47465b;
 }
 
-.services img{
+.logo img{
     width: 25px;
 }
 
@@ -240,11 +243,87 @@ h1{
 }
 
 .lists img{
-    margin: 20px 20px 20px 0px;
+    margin: 15px 15px 15px 0px;
     width: 125px;
 }
 
 .lists .arrow{
     margin-left: 330px;
+}
+
+.portfolio-tiles{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tiles{
+    background-color: #413b52;
+    height: 220px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tiles .logo{
+    background-color: #353346;
+}
+
+.tiles > *{
+    margin: 8px 20px; 
+}
+
+.portfolio-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.projects-tiles{
+    height: 220px;
+    width: 350px;
+    background-color: #2a2434;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.portfolio-projects img{
+    width: 325px;
+    border-top-left-radius: 5%;
+}
+
+.left{
+    float: right;
+}
+
+.projects-tiles > *{
+    margin: 10px 0px 0px 25px;
+}
+
+.projects-tiles a{
+    text-decoration: underline;
+}
+
+.button{
+    height: 220px;
+    width: 350px;
+}
+
+.portfolio-projects button{
+    height: 50px;
+    width: 140px;
+    border-radius: 25px;
+    margin: 25px 0px 0px 550px;
+    background-color: #2a2434;
+    border: 2px solid #efbe3f;
+    font-weight: bold;
+}
+
+.portfolio-projects button:hover{
+    background-color: #efbe3f;
+    color: white;
+    transition: all 0.5s ease-out;
 }
 
