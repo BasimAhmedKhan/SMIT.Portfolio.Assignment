@@ -54,4 +54,4 @@ Thanks a Bunch for Stopping By! <3
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/BasimAhmedKhan/SMIT.Portfolio.Assignment/blob/main/LICENSE)
