@@ -2,17 +2,19 @@
 
 Portfolio Website made using HTML, CSS. 2048 is a puzzle Game in which you join tiles until you get 2048 score.A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.
 
+Check Out the Live Version &#10230; [SMIT.Portfolio.Assignment](https://basimahmedkhan.github.io/SMIT.Portfolio.Assignment/)
+
 
 
 ## Working Application
 
-![Demo](https://github.com/BasimAhmedKhan/SMIT.Portfolio.Assignment/blob/main/Readme%20Resources/SMIT-Portfolio-Assignment.png)
+![Demo](https://github.com/BasimAhmedKhan/SMIT.Portfolio.Assignment/blob/main/Readme%20Resources/smit-portfolio.gif)
 
 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/BasimAhmedKhan/2048-Game/blob/main/Readme%20Resources/2048%20Screenshot.png)
+![App Screenshot](https://github.com/BasimAhmedKhan/SMIT.Portfolio.Assignment/blob/main/Readme%20Resources/SMIT-Portfolio-Assignment.png)
 
 
 
