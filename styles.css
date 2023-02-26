@@ -10,7 +10,7 @@ body{
     background-color: #373244;
 }
 
-.navbar, .home, .social-bar, .portfolio, .portfolio-tiles, .portfolio-projects, .testimonial{
+.navbar, .home, .social-bar, .portfolio, .portfolio-tiles, .portfolio-projects, .testimonial, footer{
     margin: 0rem 4rem;
 }
 
@@ -40,7 +40,7 @@ body{
     margin-left: 2.5rem;
 }
 
-.element a:hover{
+.element a:hover, .foot a:hover{
     color: white;
 }
 
@@ -60,7 +60,7 @@ ul{
     list-style-type: none;
 }
 
-.brand a{
+.brand a, .rights a{
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -148,7 +148,7 @@ h1{
     font-weight: 500;
 }
 
-.services li{
+.services li, .foot li{
     margin-right: 1rem;
 }
 
@@ -190,6 +190,11 @@ h1{
     border-radius: 2px;
 }
 
+.portfolio-container-size{
+    width: 100%;
+    height: 225vh;
+}
+
 .portfolio-container{
     background-color: #292534;
     width: 100%;
@@ -213,20 +218,16 @@ h1{
     justify-content: space-between;
 }
 
-.portfolio-intro h2{
+h2{
     font-size: xx-large;
 }
 
-.portfolio-intro > *{
+.portfolio-intro > *, .left-outro > *, .info-1, .info-2{
     margin-bottom: 25px;
 }
 
 .info-4{
     margin-right: 25px;
-}
-
-.info-1, .info-2{
-    margin-bottom: 25px;
 }
 
 .portfolio-services h3{
@@ -312,7 +313,7 @@ h1{
     width: 350px;
 }
 
-.portfolio-projects button{
+.portfolio-projects button, .outro button{
     height: 50px;
     width: 140px;
     border-radius: 25px;
@@ -322,7 +323,7 @@ h1{
     font-weight: bold;
 }
 
-.portfolio-projects button:hover{
+.portfolio-projects button:hover, .arrow-button:hover, .outro button:hover{
     background-color: #efbe3f;
     color: white;
     transition: all 0.5s ease-out;
@@ -331,5 +332,83 @@ h1{
 .testimonial-container{
     background-color: #292534;
     width: 100%;
+    height: 120vh;
 }
 
+.review{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+}
+
+.review .review-image{
+    width: 250px;
+    margin: 50px 0px;
+}
+
+.testimonial-intro > *{
+    margin: 0px 0px 15px 25px;
+}
+
+.testimonial-intro img{
+    width: 35px
+}
+
+.arrow-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #efbe3f;
+    border-radius: 50%;
+    float: right;
+}
+
+.outro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.outro button{
+    margin: 0px;
+}
+
+.left-outro{
+    width: 610px;
+}
+
+.right-outro .dp{
+    margin: 0px;
+    height: 350px;
+    width: 350px;
+}
+
+.right-outro .dp img{
+    width: 350px;
+}
+
+.about, .rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot{
+    height: 175px;
+    width: 250px;
+}
+
+.about-container{
+    margin: 35px 0px;
+}
+
+.foot > *, .foot ul > *{
+    margin-bottom: 10px;
+}
+
+.rights{
+    margin: 10px 0px;
+}
