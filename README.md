@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Portfolio Website made using HTML, CSS. 2048 is a puzzle Game in which you join tiles until you get 2048 score.A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.
+Portfolio Website made using HTML, CSS. A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.
 
 Check Out the Live Version  &#10230;  [SMIT.Portfolio.Assignment](https://basimahmedkhan.github.io/SMIT.Portfolio.Assignment/)
 
