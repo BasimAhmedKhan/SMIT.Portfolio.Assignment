@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./responsive.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Basim Khan</title>
 </head>
@@ -13,7 +14,7 @@
     <header>
         <div class="navbar-container">
             <nav class="navbar">
-                <ul class="nav">
+                <ul class="nav margin">
                     <li class="brand">
                         <a href="./index.html">
                             <img src="./Resources/emoji.png" alt="">
@@ -57,51 +58,55 @@
     </header>
 
     <main>
-        <section class="home" id="home">
-            <div class="intro">
-                <h1 class="im">I'm</h1>
-                <h1 class="name myname">Basim Khan</h1>
-                <div class="underline"></div>
-                <p class="intro-para">
-                    A freelance who provides services for digital programming and design content needs, for all businesses with more than 10 years of experiance.
-                </p>
-            </div>
-            <div class="dp">
-                <img src="./Resources/dp.png" alt="">
-            </div>
-            <div class="services">
-                <p>Services</p>
-                <p class="services-para">
-                    Let's build quality products in programming and design with my services
-                </p>
-                <a href="#" class="yellow">show more &#10230;</a>
-                <ul class="nav">
-                    <li class="logo">
-                        <a href="https://www.facebook.com/people/Basim-Khan/pfbid0Ujmjc3Y4wnF7yvHnQ5B1YUiWgwMfcWNBChpptQJEivWWMgH7RXmaYWhFafwi7nCMl/" target="_blank">
-                            <img src="./Resources/facebook-services.png" alt="">
-                        </a>
-                    </li>
-                    <li class="logo">
-                        <a href="#">
-                            <img src="./Resources/twitter-services.png" alt="">
-                        </a>
-                    </li>
-                    <li class="logo">
-                        <a href="https://www.instagram.com/basim_khann/" target="_blank">
-                            <img src="./Resources/instagram-services.png" alt="">
-                        </a>
-                    </li>
-                    <li class="logo">
-                        <a href="https://www.pinterest.com/kbasim039/" target="_blank">
-                            <img src="./Resources/pinterest-services.png" alt="">
-                        </a>
-                    </li>
-                </ul>
+        <section id="home">
+            <div class="home row margin">
+                <div class="intro">
+                    <h1 class="im">I'm</h1>
+                    <h1 class="name myname">Basim Khan</h1>
+                    <div class="underline"></div>
+                    <p class="intro-para width100">
+                        A freelance who provides services for digital programming and design content needs, for all
+                        businesses with more than 10 years of experiance.
+                    </p>
+                </div>
+                <div class="dp">
+                    <img src="./Resources/dp.png" alt="">
+                </div>
+                <div class="services">
+                    <p>Services</p>
+                    <p class="services-para width100">
+                        Let's build quality products in programming and design with my services
+                    </p>
+                    <a href="#" class="yellow">show more &#10230;</a>
+                    <ul class="nav">
+                        <li class="logo">
+                            <a href="https://www.facebook.com/people/Basim-Khan/pfbid0Ujmjc3Y4wnF7yvHnQ5B1YUiWgwMfcWNBChpptQJEivWWMgH7RXmaYWhFafwi7nCMl/"
+                                target="_blank">
+                                <img src="./Resources/facebook-services.png" alt="">
+                            </a>
+                        </li>
+                        <li class="logo">
+                            <a href="#">
+                                <img src="./Resources/twitter-services.png" alt="">
+                            </a>
+                        </li>
+                        <li class="logo">
+                            <a href="https://www.instagram.com/basim_khann/" target="_blank">
+                                <img src="./Resources/instagram-services.png" alt="">
+                            </a>
+                        </li>
+                        <li class="logo">
+                            <a href="https://www.pinterest.com/kbasim039/" target="_blank">
+                                <img src="./Resources/pinterest-services.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="portfolio-container-size">
             <div class="portfolio-container" id="portfolio">
-                <div class="social-bar">
+                <div class="social-bar margin">
                     <div class="s1">
                         <a href="#">
                             <img src="./Resources/meta-social.svg" alt="">
@@ -123,10 +128,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="portfolio">
-                    <div class="portfolio-intro">
+                <div class="portfolio margin row">
+                    <div class="portfolio-intro width100">
                         <h2 class="name">What Can I Do For<br>Your Needs</h2>
-                        <p class="intro-para">It is easier to entrust the work to the experts because they are able to provide the best results with reliable quality</p>
+                        <p class="intro-para">It is easier to entrust the work to the experts because they are able to
+                            provide the best results with reliable quality</p>
                         <div class="portfolio-services">
                             <div class="info-1">
                                 <h3 class="yellow">250+</h3>
@@ -146,114 +152,119 @@
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-list">
+                    <div class="portfolio-list width100">
                         <a href="#" class="lists">
-                            <img src="./Resources/ui-ux-design.jpg" alt="">
-                            <div>
-                                <h3 class="name">UI/UX Design</h3>
-                                <div class="arrow yellow">&#10230;</div>
-                                <p class="intro-para">117 Projects</p>
+                            <div class="lists-con">
+                                <img src="./Resources/ui-ux-design.jpg" alt="">
+                                <div>
+                                    <h3 class="name">UI/UX Design</h3>
+                                    <p class="intro-para">117 Projects</p>
+                                </div>
                             </div>
+                            <div class="arrow yellow">&#10230;</div>
                         </a>
                         <hr>
                         <a href="#" class="lists">
-                            <div class="lists">
+                            <div class="lists-con">
                                 <img src="./Resources/frontend-dev.png" alt="">
                                 <div>
                                     <h3 class="name">Front End Develop</h3>
-                                    <div class="arrow yellow">&#10230;</div>
                                     <p class="intro-para">87 Projects</p>
                                 </div>
                             </div>
+                            <div class="arrow yellow">&#10230;</div>
                         </a>
                         <hr>
                         <a href="#" class="lists">
-                            <div class="lists">
+                            <div class="lists-con">
                                 <img src="./Resources/mobile-app-dev.png" alt="">
                                 <div>
                                     <h3 class="name">Mobile App Develop</h3>
-                                    <div class="arrow yellow">&#10230;</div>
                                     <p class="intro-para">32 Projects</p>
                                 </div>
                             </div>
+                            <div class="arrow yellow">&#10230;</div>
                         </a>
                         <hr>
-                    </div>
-                </div>
-                <div class="portfolio-tiles">
-                    <div class="tiles">
-                        <div class="logo"><img src="./Resources/ui-ux-tile.png" alt=""></div>
-                        <h3 class="name">UI/UX Design</h3>
-                        <p class="intro-para">
-                            Create a beautiful and useful UI display for the ease of use of the application for user
-                        </p>
-                    </div>
-                    <div class="tiles">
-                        <div class="logo"><img src="./Resources/front-end-tile.png" alt=""></div>
-                        <h3 class="name">Web Programming</h3>
-                        <p class="intro-para">
-                            Build a quality website with the best technology and optimization on search engines 
-                        </p>
-                    </div>
-                    <div class="tiles">
-                        <div class="logo"><img src="./Resources/mobile-app-tile.png" alt=""></div>
-                        <h3 class="name">Mobile Development</h3>
-                        <p class="intro-para">
-                            Create an app for your own business for a more professional business performance
-                        </p>
-                    </div>
-                </div>
-                <div class="portfolio-projects">
-                    <div class="projects-tiles">
-                        <p class="yellow">Mobile App Design</p>
-                        <a href="#" class="yellow left">&#9993; Case Study</a>
-                        <p class="name">Travel Mobile App</p>
-                        <img src="./Resources/travel-mobile-app.png" alt="">
-                    </div>
-                    <div class="projects-tiles">
-                        <p class="yellow">Web Design</p>
-                        <a href="#" class="yellow left">&#9993; Case Study</a>
-                        <p class="name">Real State Landing Page</p>
-                        <img src="./Resources/real-state.png" alt="">
-                    </div>
-                    <div class="projects-tiles">
-                        <p class="yellow">Web Design</p>
-                        <a href="#" class="yellow left">&#9993; Case Study</a>
-                        <p class="name">Coffee Shop Website</p>
-                        <img src="./Resources/coffee-shop.png" alt="">
-                    </div>
-                    <div class="projects-tiles">
-                        <p class="yellow">Mobile App Design</p>
-                        <a href="#" class="yellow left">&#9993; Case Study</a>
-                        <p class="name">Sneaker Store App</p>
-                        <img src="./Resources/sneaker-store.png" alt="">
-                    </div>
-                    <div class="projects-tiles">
-                        <p class="yellow">Mobile App Design</p>
-                        <a href="#" class="yellow left">&#9993; Case Study</a>
-                        <p class="name">Hotel Booking App</p>
-                        <img src="./Resources/hotel-booking.png" alt="">
-                    </div>
-                    <div class="projects-tiles">
-                        <p class="yellow">Web Design</p>
-                        <a href="#" class="yellow left">&#9993; Case Study</a>
-                        <p class="name">Coworkig Space Site</p>
-                        <img src="./Resources/coworking-space.png" alt="">
-                    </div>
-                    <div class="button">
-                        <button class="yellow">More Portfolio</button>
                     </div>
                 </div>
             </div>
         </section>
+        <section>
+            <div class="portfolio-tiles width100 margin row">
+                <div class="tiles">
+                    <div class="logo"><img src="./Resources/ui-ux-tile.png" alt=""></div>
+                    <h3 class="name">UI/UX Design</h3>
+                    <p class="intro-para">
+                        Create a beautiful and useful UI display for the ease of use of the application for user
+                    </p>
+                </div>
+                <div class="tiles">
+                    <div class="logo"><img src="./Resources/front-end-tile.png" alt=""></div>
+                    <h3 class="name">Web Programming</h3>
+                    <p class="intro-para">
+                        Build a quality website with the best technology and optimization on search engines
+                    </p>
+                </div>
+                <div class="tiles">
+                    <div class="logo"><img src="./Resources/mobile-app-tile.png" alt=""></div>
+                    <h3 class="name">Mobile Development</h3>
+                    <p class="intro-para">
+                        Create an app for your own business for a more professional business performance
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-projects margin row">
+                <div class="projects-tiles">
+                    <p class="yellow">Mobile App Design</p>
+                    <a href="#" class="yellow left">&#9993; Case Study</a>
+                    <p class="name">Travel Mobile App</p>
+                    <img src="./Resources/travel-mobile-app.png" alt="">
+                </div>
+                <div class="projects-tiles">
+                    <p class="yellow">Web Design</p>
+                    <a href="#" class="yellow left">&#9993; Case Study</a>
+                    <p class="name">Real State Landing Page</p>
+                    <img src="./Resources/real-state.png" alt="">
+                </div>
+                <div class="projects-tiles">
+                    <p class="yellow">Web Design</p>
+                    <a href="#" class="yellow left">&#9993; Case Study</a>
+                    <p class="name">Coffee Shop Website</p>
+                    <img src="./Resources/coffee-shop.png" alt="">
+                </div>
+                <div class="projects-tiles">
+                    <p class="yellow">Mobile App Design</p>
+                    <a href="#" class="yellow left">&#9993; Case Study</a>
+                    <p class="name">Sneaker Store App</p>
+                    <img src="./Resources/sneaker-store.png" alt="">
+                </div>
+                <div class="projects-tiles">
+                    <p class="yellow">Mobile App Design</p>
+                    <a href="#" class="yellow left">&#9993; Case Study</a>
+                    <p class="name">Hotel Booking App</p>
+                    <img src="./Resources/hotel-booking.png" alt="">
+                </div>
+                <div class="projects-tiles">
+                    <p class="yellow">Web Design</p>
+                    <a href="#" class="yellow left">&#9993; Case Study</a>
+                    <p class="name">Coworkig Space Site</p>
+                    <img src="./Resources/coworking-space.png" alt="">
+                </div>
+            </div>
+            <div class="button">
+                <button class="yellow portfolio-projects-button">More Portfolio</button>
+            </div>
+        </section>
         <section class="testimonial-container" id="testimonial">
-            <div class="testimonial">
-                <div class="review">
+            <div class="testimonial margin">
+                <div class="review row">
                     <img class="review-image" src="./Resources/testimonial-image.png" alt="" />
                     <div class="testimonial-intro">
                         <img src="./Resources/quote.png" alt="">
                         <p class="intro-para">
-                            Basim is a professional worker who always gives results that are beyond our expectations and always provides solutions to produce better products, thanks for your cooperation
+                            Basim is a professional worker who always gives results that are beyond our expectations and
+                            always provides solutions to produce better products, thanks for your cooperation
                         </p>
                         <p class="name">
                             Edward Collind <br />
@@ -265,12 +276,15 @@
                     </div>
                 </div>
                 <hr>
-                <div class="outro">
-                    <div class="left-outro">
+                <div class="outro row">
+                    <div class="left-outro width100">
                         <h2 class="name">Let's Hire Me And Make<br>The Best Product</h2>
-                        <p class="intro-para">Contact me if you are interested in entrusting your work to me, or you can check out my youtube channel to see how I work, Thanks</p>
-                        <a href="https://www.youtube.com/channel/UCN-zjNcVoGl7M6TQr2ZeKvQ" target="_blank" class="button"><button class="yellow">Youtube</button></a>
-                        <a href="mailto:kbasim039@gmail.com" target="_blank" class="button"><button class="yellow">Contact Me</button></a>
+                        <p class="intro-para">Contact me if you are interested in entrusting your work to me, or you can
+                            check out my youtube channel to see how I work, Thanks</p>
+                        <a href="https://www.youtube.com/channel/UCN-zjNcVoGl7M6TQr2ZeKvQ" target="_blank"><button
+                                class="yellow">Youtube</button></a>
+                        <a href="mailto:kbasim039@gmail.com" target="_blank">
+                            <button class="yellow">Contact Me</button></a>
                     </div>
                     <div class="right-outro">
                         <div class="dp">
@@ -283,7 +297,7 @@
     </main>
     <footer id="about">
         <div class="about-container">
-            <div class="about">
+            <div class="about margin">
                 <div class="foot">
                     <h3 class="name">Services</h3>
                     <ul>
@@ -317,7 +331,8 @@
                     <p class="intro-para">Stay connected with me on social and get to know more about my services</p>
                     <ul class="nav">
                         <li class="logo">
-                            <a href="https://www.facebook.com/people/Basim-Khan/pfbid0Ujmjc3Y4wnF7yvHnQ5B1YUiWgwMfcWNBChpptQJEivWWMgH7RXmaYWhFafwi7nCMl/" target="_blank">
+                            <a href="https://www.facebook.com/people/Basim-Khan/pfbid0Ujmjc3Y4wnF7yvHnQ5B1YUiWgwMfcWNBChpptQJEivWWMgH7RXmaYWhFafwi7nCMl/"
+                                target="_blank">
                                 <img src="./Resources/facebook-services.png" alt="">
                             </a>
                         </li>
