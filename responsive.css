@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-.margin{
+.margin {
     margin: 0rem 1rem !important;
 }
 
@@ -20,32 +20,32 @@
     margin: 0.62rem 0.5rem !important;
 }
 
-.width100{
+.width100 {
     width: 100% !important;
 }
 
-.dp{
+.dp {
     height: 22rem !important;
     width: 22rem !important;
     order: 1;
     margin-bottom: 4rem;
 }
 
-.dp img{
+.dp img {
     width: 22rem !important;
 }
 
-.social-bar{
+.social-bar {
     height: 8rem !important;
     flex-wrap: wrap;
-    top: -4rem !important; 
+    top: -4rem !important;
 }
 
-.about{
+.about {
     flex-wrap: wrap;
 }
 
-.foot{
+.foot {
     width: 48% !important;
     margin-top: 1rem;
 }
@@ -70,7 +70,7 @@
 
 @media only screen and (min-width: 768px) {
     .margin {
-        margin: 0rem 8rem;
+        margin: 0rem 8rem !important;
     }
 }
 
@@ -79,7 +79,3 @@
         font-size: 15px;
     }
 }
-
-/* .portfolio-projects{
-    flex-wrap: nowrap;
-} */

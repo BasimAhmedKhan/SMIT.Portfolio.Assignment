@@ -225,7 +225,7 @@ h2 {
     font-size: 2rem;
 }
 
-.portfolio-services > *{
+.portfolio-services>* {
     width: 48%;
 }
 
@@ -241,16 +241,17 @@ h2 {
 }
 
 .portfolio-list {
-    /* width: 32rem; */
     width: 48%;
+    margin-bottom: 1rem;
 }
 
-.lists, .lists-con {
+.lists,
+.lists-con {
     display: flex;
     align-items: center;
 }
 
-.lists-con{
+.lists-con {
     width: 90%;
 }
 
@@ -385,6 +386,7 @@ h2 {
 
 .left-outro {
     width: 38.2rem;
+    margin-bottom: 1rem;
 }
 
 .right-outro .dp {
@@ -407,7 +409,7 @@ h2 {
 .foot {
     height: 11rem;
     width: 23%;
-    
+
 }
 
 .about-container {
